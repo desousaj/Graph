@@ -25,5 +25,6 @@ public interface IGraph {
 	 */
 	public List<Node> getAdjNodes(Node _n);
 	
+	public IteratorGrapheImpl creerIterateur(Node sommetDepart);
 	
 }

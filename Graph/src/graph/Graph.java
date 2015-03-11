@@ -75,4 +75,8 @@ public class Graph implements IDirectedGraph {
 		return rarcs;
 	}
 
+	public IteratorGrapheImpl creerIterateur(Node sommetDepart) {
+		return new IteratorGrapheImpl(this, sommetDepart);
+	}
+
 }
